@@ -1,0 +1,16 @@
+name: urban-air-pinn
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.17
+  - pip
+  - numpy=2.4.6
+  - pandas=3.1.0
+  - scipy=1.17.1
+  - matplotlib=3.11.2
+  - scikit-learn=1.9.1
+  - pyyaml=6.0.3
+  - requests=2.34.2
+  - python-dotenv=1.2.4

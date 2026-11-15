@@ -1,0 +1,10 @@
+horizonte_horas,modelo,mejor_epoca,perdida_validacion
+1,MLP_sin_meteorologia,1500,60.469722747802734
+1,MLP_con_meteorologia,1491,59.14547348022461
+1,Modelo_neuronal_fisico,737,64.50435638427734
+6,MLP_sin_meteorologia,1500,290.19378662109375
+6,MLP_con_meteorologia,1294,240.24778747558594
+6,Modelo_neuronal_fisico,862,262.0447082519531
+24,MLP_sin_meteorologia,418,313.0849304199219
+24,MLP_con_meteorologia,707,317.51953125
+24,Modelo_neuronal_fisico,67,319.2396240234375

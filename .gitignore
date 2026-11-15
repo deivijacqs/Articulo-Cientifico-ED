@@ -1,0 +1,115 @@
+# Credenciales y variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos personales y configuracion local
+Borrador.docx
+pip-freeze-raw-win-64.txt
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Configuraciones exploratorias del planteamiento inicial
+configs/
+
+# Scripts: excluir por defecto y conservar solo la cadena seleccionada
+scripts/*
+!scripts/00_check_environment.py
+!scripts/08_download_historical_o3.py
+!scripts/09_audit_historical_o3.py
+!scripts/10_inspect_o3_flags.py
+!scripts/11_validate_o3_quality.py
+!scripts/12_inspect_o3_peaks.py
+!scripts/13_build_o3_model_dataset.py
+!scripts/14_validate_o3_model_dataset.py
+!scripts/15_split_o3_temporal.py
+!scripts/16_evaluate_o3_baselines.py
+!scripts/17_compare_o3_baselines_paired.py
+!scripts/18_download_historical_weather.py
+!scripts/19_merge_o3_weather.py
+!scripts/20_train_o3_neural_network.py
+!scripts/21_ablation_o3_meteorology.py
+!scripts/22_evaluate_multihorizon_baselines.py
+!scripts/23_train_o3_pinn.py
+!scripts/24_verificar_predicciones.py
+!scripts/31_dependencia_temporal_agregada.py
+!scripts/33_bootstrap_jerarquico_bloques.py
+!scripts/34_block_subsampling_temporal.py
+!scripts/35_diagnostico_estabilidad_subsampling.py
+!scripts/36_diagnostico_episodios_influyentes.py
+!scripts/37_estratificacion_concentracion.py
+!scripts/38_estratificacion_cinco_cuantiles.py
+!scripts/39_diagnostico_calibracion_errores.py
+!scripts/40_calibracion_global_condicional.py
+!scripts/41_comparacion_pareada_modelos.py
+!scripts/42_figura_bootstrap_jerarquico.py
+!scripts/43_figuras_estabilidad_temporal.py
+!scripts/44_figura_autocorrelacion_perdidas.py
+!scripts/45_figura_parametros_fisicos.py
+
+# Datos locales
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Modelos entrenados
+models/*
+!models/.gitkeep
+
+# Resultados: excluir por defecto
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+outputs/tables/*
+!outputs/tables/.gitkeep
+
+# Tablas cientificas seleccionadas
+!outputs/tables/o3_pinn_comparacion_metricas.csv
+!outputs/tables/o3_pinn_resumen_entrenamiento.csv
+!outputs/tables/o3_baseline_metrics.csv
+!outputs/tables/o3_baseline_metrics_paired.csv
+!outputs/tables/o3_ablation_metrics.csv
+!outputs/tables/o3_multihorizon_metrics.csv
+!outputs/tables/31_dependencia_temporal_agregada.csv
+!outputs/tables/33_bootstrap_jerarquico_bloques.csv
+!outputs/tables/35_resumen_estabilidad_subsampling.csv
+!outputs/tables/36_diagnostico_episodios_influyentes.csv
+!outputs/tables/37_estratificacion_concentracion.csv
+!outputs/tables/38_estratificacion_cinco_cuantiles.csv
+!outputs/tables/39_diagnostico_calibracion_errores.csv
+!outputs/tables/40_calibracion_global.csv
+!outputs/tables/40_errores_condicionales.csv
+!outputs/tables/41_comparacion_pareada_modelos.csv
+!outputs/tables/45_parametros_dinamicos_fisicos.csv
+
+# Figuras cientificas seleccionadas: PNG y PDF
+!outputs/figures/fig_01_bootstrap_jerarquico_mae.png
+!outputs/figures/fig_01_bootstrap_jerarquico_mae.pdf
+!outputs/figures/fig_02_estabilidad_ventanas_temporales.png
+!outputs/figures/fig_02_estabilidad_ventanas_temporales.pdf
+!outputs/figures/fig_03_influencia_segmentos_temporales.png
+!outputs/figures/fig_03_influencia_segmentos_temporales.pdf
+!outputs/figures/fig_04_autocorrelacion_diferencias_perdida.png
+!outputs/figures/fig_04_autocorrelacion_diferencias_perdida.pdf
+!outputs/figures/fig_05_parametros_dinamicos_fisicos.png
+!outputs/figures/fig_05_parametros_dinamicos_fisicos.pdf
+
+# Respaldos y analisis anteriores
+outputs/archivo_analisis_anterior_20261114/
+outputs/tables/respaldo_pre_correccion_20261114/
+
+# Registros locales
+logs/*
+!logs/.gitkeep
+
+# Archivos auxiliares y dependencias del flujo exploratorio excluido
+/environment-extras.yml
+/actualizar_documentacion_urban_air_pollution.py
+/actualizar_gitignore_readme_urban_air_pollution.py
