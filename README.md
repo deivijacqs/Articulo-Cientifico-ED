@@ -1,5 +1,16 @@
 # Physics-informed neural differential equations for urban air-pollution dynamics
 
+## Target journal and manuscript status
+
+- **Target journal:** *Environmental Modelling & Software* (Elsevier).
+- **Current manuscript title:** “A physics-informed neural differential equation for hourly urban ozone forecasting: A reduced-order dynamical approach”.
+- **Manuscript language:** English.
+- **Manuscript status:** Full draft prepared and formatted for preliminary academic review by the supervising instructor. The manuscript has not yet been submitted to the journal.
+- **Authorship:** Two authors affiliated with Universidad Técnica del Norte, Faculty of Engineering in Applied Sciences, Data Science and Artificial Intelligence Program, Ibarra, Ecuador. Author names and correspondence details are maintained in the manuscript file and are not duplicated in this repository metadata.
+- **Editorial workflow:** Complete the instructor's scientific and editorial review before preparing the journal submission package. Journal formatting and submission requirements must be checked against the current official Guide for Authors.
+
+The editable Word manuscript is maintained separately during drafting and review. It is intentionally not included in this repository at this stage. A PDF may be generated as a read-only review copy when needed; neither format should be treated as the definitive submitted version until the authors approve it.
+
 ## Project overview
 
 This repository contains the code and selected outputs for a single-station case study of hourly ambient ozone (O3) in London, United Kingdom. The study combines OpenAQ observations with historical meteorological variables from the Open-Meteo Historical Weather API and compares persistence, conventional multilayer perceptrons (MLPs), and a neural model constrained by a simplified dynamical equation.
