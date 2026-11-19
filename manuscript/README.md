@@ -27,3 +27,13 @@ Use only outputs whose provenance can be traced to a script and a documented inp
 Record the code revision, environment, data source and retrieval date, sensor identifier, study period, quality-control rules, partition boundaries, random seeds, model settings, and script versions used to generate each reported result.
 
 Do not place API credentials, private conversation notes, or raw data in this directory or in the public-facing repository.
+
+## Target journal and current status
+
+- **Target journal:** *Environmental Modelling & Software* (Elsevier).
+- **Working title:** “A physics-informed neural differential equation for hourly urban ozone forecasting: A reduced-order dynamical approach”.
+- **Current stage:** Complete manuscript draft prepared for preliminary review by the supervising instructor; not yet submitted.
+- **Authors:** Two authors from Universidad Técnica del Norte, Faculty of Engineering in Applied Sciences, Data Science and Artificial Intelligence Program, Ibarra, Ecuador.
+- **Next milestone:** Incorporate the instructor's scientific and editorial feedback, obtain both authors' approval, and then prepare the final submission files according to the journal's current Guide for Authors.
+
+The working DOCX and any review PDF are maintained outside this repository during the preliminary review. Do not publish an unapproved manuscript version here. The final public research record should distinguish the submitted manuscript from the code and selected outputs that support reproducibility.
