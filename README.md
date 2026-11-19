@@ -9,7 +9,7 @@
 - **Authorship:** Two authors affiliated with Universidad Técnica del Norte, Faculty of Engineering in Applied Sciences, Data Science and Artificial Intelligence Program, Ibarra, Ecuador. Author names and correspondence details are maintained in the manuscript file and are not duplicated in this repository metadata.
 - **Editorial workflow:** Complete the instructor's scientific and editorial review before preparing the journal submission package. Journal formatting and submission requirements must be checked against the current official Guide for Authors.
 
-The editable Word manuscript is maintained separately during drafting and review. It is intentionally not included in this repository at this stage. A PDF may be generated as a read-only review copy when needed; neither format should be treated as the definitive submitted version until the authors approve it.
+The editable Word manuscript and its PDF counterpart are intended to be published temporarily under `manuscript/review/` to support the supervising instructor's preliminary academic review. These files are working drafts, not the definitive submitted manuscript. They may be replaced or removed after feedback is incorporated and both authors approve the revised version. The repository's public visibility means these review files can be accessed and downloaded by anyone.
 
 ## Project overview
 
