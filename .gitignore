@@ -101,6 +101,24 @@ outputs/tables/*
 !outputs/figures/fig_05_parametros_dinamicos_fisicos.png
 !outputs/figures/fig_05_parametros_dinamicos_fisicos.pdf
 
+# Figuras principales del manuscrito: PNG y PDF
+!outputs/figures/fig_01_rendimiento_predictivo_multihorizonte.png
+!outputs/figures/fig_01_rendimiento_predictivo_multihorizonte.pdf
+!outputs/figures/fig_02_calibracion_global_observado_predicho.png
+!outputs/figures/fig_02_calibracion_global_observado_predicho.pdf
+!outputs/figures/fig_03_mae_por_quintil_concentracion.png
+!outputs/figures/fig_03_mae_por_quintil_concentracion.pdf
+
+# Diagnosticos complementarios de calibracion
+!outputs/figures/40_calibracion/
+!outputs/figures/40_calibracion/40_calibracion_1h.png
+!outputs/figures/40_calibracion/40_calibracion_24h.png
+!outputs/figures/40_calibracion/40_calibracion_6h.png
+!outputs/figures/40_calibracion/40_panel_completo.png
+!outputs/figures/40_calibracion/40_residuos_1h.png
+!outputs/figures/40_calibracion/40_residuos_24h.png
+!outputs/figures/40_calibracion/40_residuos_6h.png
+
 # Respaldos y analisis anteriores
 outputs/archivo_analisis_anterior_20261114/
 outputs/tables/respaldo_pre_correccion_20261114/
